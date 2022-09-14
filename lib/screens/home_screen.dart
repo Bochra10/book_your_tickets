@@ -20,7 +20,8 @@ class HomeScreen extends StatelessWidget {
                         Text('Good morning'),
                         Text('Book Tickets')
                       ],
-                    )
+                    ),
+                    Image.asset('assets/images/img_1.png')
                   ],
                 )
               ],
