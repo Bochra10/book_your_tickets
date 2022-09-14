@@ -1,3 +1,4 @@
+import 'package:book_your_tickets/screens/ticket_view.dart';
 import 'package:book_your_tickets/utils/app_styles.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/cupertino.dart';
@@ -77,7 +78,9 @@ class HomeScreen extends StatelessWidget {
                 )
               ],
             ),
-          )
+          ),
+          const Gap(15),
+          TicketView()
         ],
       ),
     );
