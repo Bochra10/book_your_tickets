@@ -2,8 +2,6 @@ import 'package:book_your_tickets/utils/app_layout.dart';
 import 'package:book_your_tickets/utils/app_styles.dart';
 import 'package:book_your_tickets/widgets/thick_circle.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:gap/gap.dart';
 
 class TicketView extends StatelessWidget {
@@ -13,10 +11,10 @@ class TicketView extends StatelessWidget {
   Widget build(BuildContext context) {
     final size = AppLayout.getSize(context);
     return SizedBox(
-      width: size.width,
+      width: size.width * 0.85,
       height: 200,
       child: Container(
-          margin: const EdgeInsets.only(left: 16),
+          margin: const EdgeInsets.only(right: 16),
           child: Column(
             children: [
               // Blue part
