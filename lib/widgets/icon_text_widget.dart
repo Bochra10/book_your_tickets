@@ -16,7 +16,7 @@ class IconTextWidget extends StatelessWidget {
           borderRadius: BorderRadius.circular(10), color: Colors.white),
       child: Row(
         children: [
-          Icon(icon, color: Color(0xFFBFC2DF)),
+          Icon(icon, color: const Color(0xFFBFC2DF)),
           const Gap(10),
           Text(text, style: Styles.textStyle)
         ],
